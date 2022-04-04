@@ -1,4 +1,4 @@
-# sb-sample-extension
+# sb-instagram
 
 ## Developing apps locally using the Smart Builder
 
