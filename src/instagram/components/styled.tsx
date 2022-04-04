@@ -1,0 +1,23 @@
+import styled from 'styled-components';
+
+export const Overlay = styled.div`
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+`;
+
+export const PlaceholderWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(237, 237, 237);
+
+  /* Match the size of Instagram's iframe */
+  width: calc(100% - 2px);
+  max-width: 540px;
+  min-width: 326px;
+  min-height: 454px;
+`;
