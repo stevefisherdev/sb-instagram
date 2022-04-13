@@ -10,8 +10,8 @@ const schema = Schema.object({
 
 export const Component = component({
   componentTypeId: 'instagramPost',
-  displayName: 'Instagram',
-  tags: ['media', 'newControls', 'swappable'],
+  displayName: 'Instagram Post',
+  tags: ['media', 'newControls', 'swappable', 'isFullWidth'],
   schema,
   Component: Instagram,
   version: migrations.length,
