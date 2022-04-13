@@ -72,6 +72,8 @@ export const Control = {
 
         {urlError && <Error>Oops! That URL doesn&apos;t look right. Please check it is correct and try again.</Error>}
 
+        <Info>Enter the URL for your Instagram post and we&apos;ll add it to your page here</Info>
+
         <StyledToggleLabel>
           Include caption
           <Toggle
@@ -80,8 +82,6 @@ export const Control = {
             data-testid="instagram-show-caption"
           />
         </StyledToggleLabel>
-
-        <Info>Enter the URL for your Instagram post and we&apos;ll add it to your page here</Info>
       </>
     );
   },
