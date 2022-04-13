@@ -24,7 +24,7 @@ const StyledToggleLabel = styled.label`
 `;
 
 export const Control = {
-  controlId: 'instagramEmbedControl',
+  controlId: 'instagramPostControl',
   Component: ({ data, dispatch }: ComponentProps<DataStructure>) => {
     const { src, showCaption } = data;
     const [tempSrc, setTempSrc] = useState(src);

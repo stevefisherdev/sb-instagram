@@ -14,7 +14,7 @@ const reloadEmbeds = () => {
 };
 
 const instagram_embed_url = {
-  scriptId: 'instagramEmbed',
+  scriptId: 'instagramPost',
   src: '//www.instagram.com/embed.js',
   onloadMethod: 'window.instgrm && window.instgrm.Embeds.process()',
   condition: true,

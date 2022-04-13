@@ -6,10 +6,10 @@ import { migrations } from './migrations';
 const schema = Schema.object({
   src: Schema.string().noControls(),
   showCaption: Schema.boolean().default(true).noControls(),
-}).withControl('instagramEmbedControl');
+}).withControl('instagramPostControl');
 
 export const Component = component({
-  componentTypeId: 'instagramEmbed',
+  componentTypeId: 'instagramPost',
   displayName: 'Instagram',
   tags: ['media', 'newControls', 'swappable'],
   schema,

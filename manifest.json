@@ -1,8 +1,8 @@
 {
-  "extensionId": "@external/instagramEmbed",
-  "appId": "@external/instagramEmbed",
+  "extensionId": "@external/instagramPost",
+  "appId": "@external/instagramPost",
   "version": "0.1",
-  "name": "Instagram",
+  "name": "Instagram Post",
   "isBeta": true,
   "isSwappable": true,
   "description": "Add an Instagram post to your page",
