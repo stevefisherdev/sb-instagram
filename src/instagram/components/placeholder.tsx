@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { InstagramIcon } from '../../shared/components/instagram-icon';
+import { InstagramIcon } from '../../icons/instagram-icon';
 import { PlaceholderWrapper } from './styled';
 
 export const Placeholder = () => (

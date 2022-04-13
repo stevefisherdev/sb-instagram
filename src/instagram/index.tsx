@@ -6,7 +6,7 @@ import { migrations } from './migrations';
 const schema = Schema.object({
   src: Schema.string().noControls(),
   showCaption: Schema.boolean().default(true).noControls(),
-}).withControl('instagramPostControl');
+});
 
 export const Component = component({
   componentTypeId: 'instagramPost',

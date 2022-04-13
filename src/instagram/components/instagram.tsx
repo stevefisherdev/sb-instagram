@@ -1,10 +1,12 @@
 import React, { useEffect, useMemo } from 'react';
-import { WithControls, Script } from 'smart-builder-sdk';
+import { WithControls, Script, ControlButton } from 'smart-builder-sdk';
 import { ComponentProps, WithStylesProps } from 'unbounce-smart-builder-sdk-types';
 
-import { getEmbedId } from '../../control/util/get-embed-id';
+import { CogIcon } from '../../icons/cog-icon';
 import { DataStructure } from '../../types';
+import { getEmbedId } from '../../util/get-embed-id';
 import { Embed } from './embed';
+import { Panel } from './panel';
 import { Placeholder } from './placeholder';
 import { Overlay } from './styled';
 
@@ -40,4 +42,18 @@ const Instagram = ({ data, mode, className }: ComponentProps<DataStructure, With
   );
 };
 
-export default WithControls(Instagram, []);
+const label = 'Add Instagram Post';
+
+export default WithControls(Instagram, [
+  {
+    id: 'instagram-embed-control',
+    label,
+    Button: (props) => (
+      <ControlButton label={label} active={false} {...props}>
+        <CogIcon />
+      </ControlButton>
+    ),
+    Panel,
+    type: 'dropdown',
+  },
+]);

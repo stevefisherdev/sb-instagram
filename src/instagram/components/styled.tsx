@@ -21,3 +21,27 @@ export const PlaceholderWrapper = styled.div`
   min-width: 326px;
   min-height: 454px;
 `;
+
+export const Info = styled.p`
+  color: rgb(128, 128, 128);
+  font-size: 14px;
+`;
+
+export const Error = styled.p`
+  color: rgb(255, 62, 81);
+  font-size: 14px;
+  margin-top: 4px;
+`;
+
+export const StyledFormControl = styled.div`
+  margin-bottom: 10px;
+`;
+
+export const StyledToggleLabel = styled.label`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #505050;
+`;
