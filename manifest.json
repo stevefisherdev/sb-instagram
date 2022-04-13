@@ -8,7 +8,7 @@
   "description": "Add an Instagram post to your page",
   "iconUrl": "https://assets.unbounce.com/m/content-creation-editor/published/images/sb-app-instagram-logo.svg",
   "type": "media",
-  "moreInfoUrl": "",
+  "moreInfoUrl": "https://www.instagram.com",
   "categories": [],
   "include": [],
   "externalScripts": ["http://localhost:8081/index.js"]
